@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<span id="hdnCheck" style="display:none"></span>
+<ul id="topBar">
+  <li class="title">
+    <p>Name that genius</p>
+  </li>
+  <li class="scores">
+    <p id="score">0</p>
+  </li>
+  <li class="timer">
+    <p id="timer"></p>
+  </li>
+</ul>
+<div id="holder">
+  <div id="selected" style="text-align:center"></div>
+  <div id="selections" class="wrapper"></div>
+</div>
+<div class="center" id="correct">
+  <img id="correctImage" src=""></img>
+  <p class="words" id="correctName">Name: </p>
+  <p class="words" id="correctBirthday">DOB: </p>
+  <p class="words" id="correctQuote"></p>
+  <br/>
+  <btn class="btn" class="startButton" onclick="newQuestion(gbldata)">NEXT</btn>
+</div>
+<div class="startButton" id="startButton">
+  <btn class="btn" onclick="beginGame()">START GAME</btn>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>

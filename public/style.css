@@ -1,0 +1,137 @@
+
+/*THe CSS is  bit ugly and redundant, but I just needed it to get the job done. With more time i'd organize it a bit nicer
+to get rid of the repetitiveness*/
+body {
+  background-color: #000000;
+}
+
+#topBar{
+  border-bottom: 1px solid white;
+}
+
+.title{
+  color: #fff;
+	height: 100%;
+  float: left;
+  font-family: monospace;
+  width: 30%;
+}
+
+.scores{
+  color: #fff;
+	height: 100%;
+  float: right;
+  font-family: monospace;
+  width: 10%;
+  color: green;
+}
+
+.timer{
+  color: #fff;
+	height: 100%;
+  float: right;
+  font-family: monospace;
+  width: 10%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+
+.title:hover{
+  color: #444;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 10px;
+  background-color: #000000;
+  color: #444;
+}
+
+.box {
+
+  background-color: #444;
+  color: #fff;
+  border-radius: 5%;
+  padding: 5%;
+  font-size: 150%;
+  text-align: center;
+  cursor:pointer;
+
+}
+
+.words{
+  font-family: monospace;
+
+}
+
+.box:hover{
+
+  background-color: #666;
+}
+
+#selected{
+  color: #fff;
+  padding-right: 4%;
+  padding-bottom: 30%;
+  font-family: cursive;
+}
+
+#holder{
+	width: 50%;
+	height: 50%;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  opacity: 0;
+	margin: auto;
+}
+
+.center{
+  width: 50%;
+	height: 50%;
+  display: none;
+  position: absolute;
+  margin: auto;
+  top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.startButton{
+	top: 50%;
+  left: 45%;
+
+	position: absolute;
+  margin: auto;
+}
+
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  text-shadow: 2px 2px 5px #666666;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 16px;
+  background: #6bd934;
+  padding: 10px 16px 9px 16px;
+  border: solid #1f8c3c 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #2a8521;
+  text-decoration: none;
+}
