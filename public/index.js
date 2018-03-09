@@ -1,4 +1,8 @@
 
+/*I only had about two days to work on this because I was away, so I decided to focus more on
+Javascript logic and how use can use JS to run entire applications with DOM manipulation.
+It's just a pretty simple "Choose the right answer game". I kept the design as simple as possible (partially due to time constraints and partially due to a lack of fun frameworks)*/
+
 //This Variable keeps track of the current correct answer
 var answer = ''
 //This Variable keeps track of the data for other functions to use after the data has been loaded to start the game
